@@ -1,0 +1,6 @@
+git
+pipeline
+gradle
+workflow-aggregator
+java
+groovy
