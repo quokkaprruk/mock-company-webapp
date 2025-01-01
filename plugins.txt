@@ -1,3 +1,4 @@
-git:4.7.1
+git:5.6.0
 workflow-aggregator:2.6
 blueocean:1.24.7
+
