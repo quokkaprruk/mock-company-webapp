@@ -4,9 +4,8 @@ jobs:
   jenkinsfile-runner-prepackaged:
     runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@master
-    - name: jenkinsfile-runner-prepackaged
-      uses: jenkinsci/jenkinsfile-runner-github-actions/jenkinsfile-runner-prepackaged@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-	
+      - uses: actions/checkout@v2
+      - name: jenkinsfile-runner-prepackaged
+        uses: jenkinsci/jenkinsfile-runner-github-actions/jenkinsfile-runner-prepackaged@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
